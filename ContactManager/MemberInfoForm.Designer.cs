@@ -51,161 +51,180 @@
             // firstNameContactInfoLabel
             // 
             this.firstNameContactInfoLabel.AutoSize = true;
-            this.firstNameContactInfoLabel.Location = new System.Drawing.Point(37, 13);
+            this.firstNameContactInfoLabel.Location = new System.Drawing.Point(49, 16);
+            this.firstNameContactInfoLabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.firstNameContactInfoLabel.Name = "firstNameContactInfoLabel";
-            this.firstNameContactInfoLabel.Size = new System.Drawing.Size(57, 13);
+            this.firstNameContactInfoLabel.Size = new System.Drawing.Size(76, 17);
             this.firstNameContactInfoLabel.TabIndex = 0;
             this.firstNameContactInfoLabel.Text = "First Name";
             // 
             // lastNameContactInfoLabel
             // 
             this.lastNameContactInfoLabel.AutoSize = true;
-            this.lastNameContactInfoLabel.Location = new System.Drawing.Point(141, 13);
+            this.lastNameContactInfoLabel.Location = new System.Drawing.Point(188, 16);
+            this.lastNameContactInfoLabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lastNameContactInfoLabel.Name = "lastNameContactInfoLabel";
-            this.lastNameContactInfoLabel.Size = new System.Drawing.Size(58, 13);
+            this.lastNameContactInfoLabel.Size = new System.Drawing.Size(76, 17);
             this.lastNameContactInfoLabel.TabIndex = 1;
             this.lastNameContactInfoLabel.Text = "Last Name";
             // 
             // typeContactInfoLabel
             // 
             this.typeContactInfoLabel.AutoSize = true;
-            this.typeContactInfoLabel.Location = new System.Drawing.Point(264, 13);
+            this.typeContactInfoLabel.Location = new System.Drawing.Point(352, 16);
+            this.typeContactInfoLabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.typeContactInfoLabel.Name = "typeContactInfoLabel";
-            this.typeContactInfoLabel.Size = new System.Drawing.Size(31, 13);
+            this.typeContactInfoLabel.Size = new System.Drawing.Size(40, 17);
             this.typeContactInfoLabel.TabIndex = 2;
             this.typeContactInfoLabel.Text = "Type";
             // 
             // departmentContactInfoLabel
             // 
             this.departmentContactInfoLabel.AutoSize = true;
-            this.departmentContactInfoLabel.Location = new System.Drawing.Point(352, 13);
+            this.departmentContactInfoLabel.Location = new System.Drawing.Point(469, 16);
+            this.departmentContactInfoLabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.departmentContactInfoLabel.Name = "departmentContactInfoLabel";
-            this.departmentContactInfoLabel.Size = new System.Drawing.Size(62, 13);
+            this.departmentContactInfoLabel.Size = new System.Drawing.Size(82, 17);
             this.departmentContactInfoLabel.TabIndex = 3;
             this.departmentContactInfoLabel.Text = "Department";
             // 
             // emailContactInfoLabel
             // 
             this.emailContactInfoLabel.AutoSize = true;
-            this.emailContactInfoLabel.Location = new System.Drawing.Point(473, 13);
+            this.emailContactInfoLabel.Location = new System.Drawing.Point(631, 16);
+            this.emailContactInfoLabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.emailContactInfoLabel.Name = "emailContactInfoLabel";
-            this.emailContactInfoLabel.Size = new System.Drawing.Size(34, 13);
+            this.emailContactInfoLabel.Size = new System.Drawing.Size(46, 17);
             this.emailContactInfoLabel.TabIndex = 4;
             this.emailContactInfoLabel.Text = "e-mail";
             // 
             // firstNameContactInfoTextBox
             // 
-            this.firstNameContactInfoTextBox.Location = new System.Drawing.Point(16, 29);
+            this.firstNameContactInfoTextBox.Location = new System.Drawing.Point(21, 36);
+            this.firstNameContactInfoTextBox.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.firstNameContactInfoTextBox.Name = "firstNameContactInfoTextBox";
             this.firstNameContactInfoTextBox.ReadOnly = true;
-            this.firstNameContactInfoTextBox.Size = new System.Drawing.Size(100, 20);
+            this.firstNameContactInfoTextBox.Size = new System.Drawing.Size(132, 22);
             this.firstNameContactInfoTextBox.TabIndex = 5;
             // 
             // lastNameContactInfoTextBox
             // 
-            this.lastNameContactInfoTextBox.Location = new System.Drawing.Point(122, 29);
+            this.lastNameContactInfoTextBox.Location = new System.Drawing.Point(163, 36);
+            this.lastNameContactInfoTextBox.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.lastNameContactInfoTextBox.Name = "lastNameContactInfoTextBox";
             this.lastNameContactInfoTextBox.ReadOnly = true;
-            this.lastNameContactInfoTextBox.Size = new System.Drawing.Size(100, 20);
+            this.lastNameContactInfoTextBox.Size = new System.Drawing.Size(132, 22);
             this.lastNameContactInfoTextBox.TabIndex = 6;
             // 
             // typeContactInfoTextBox
             // 
-            this.typeContactInfoTextBox.Location = new System.Drawing.Point(228, 29);
+            this.typeContactInfoTextBox.Location = new System.Drawing.Point(304, 36);
+            this.typeContactInfoTextBox.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.typeContactInfoTextBox.Name = "typeContactInfoTextBox";
             this.typeContactInfoTextBox.ReadOnly = true;
-            this.typeContactInfoTextBox.Size = new System.Drawing.Size(100, 20);
+            this.typeContactInfoTextBox.Size = new System.Drawing.Size(132, 22);
             this.typeContactInfoTextBox.TabIndex = 7;
             // 
             // departmentContactInfoTextBox
             // 
-            this.departmentContactInfoTextBox.Location = new System.Drawing.Point(335, 28);
+            this.departmentContactInfoTextBox.Location = new System.Drawing.Point(447, 34);
+            this.departmentContactInfoTextBox.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.departmentContactInfoTextBox.Name = "departmentContactInfoTextBox";
             this.departmentContactInfoTextBox.ReadOnly = true;
-            this.departmentContactInfoTextBox.Size = new System.Drawing.Size(100, 20);
+            this.departmentContactInfoTextBox.Size = new System.Drawing.Size(132, 22);
             this.departmentContactInfoTextBox.TabIndex = 8;
             // 
             // emailContactInfoTextBox
             // 
-            this.emailContactInfoTextBox.Location = new System.Drawing.Point(441, 29);
+            this.emailContactInfoTextBox.Location = new System.Drawing.Point(588, 36);
+            this.emailContactInfoTextBox.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.emailContactInfoTextBox.Name = "emailContactInfoTextBox";
             this.emailContactInfoTextBox.ReadOnly = true;
-            this.emailContactInfoTextBox.Size = new System.Drawing.Size(100, 20);
+            this.emailContactInfoTextBox.Size = new System.Drawing.Size(132, 22);
             this.emailContactInfoTextBox.TabIndex = 9;
             // 
             // buildingContactInfoTextBox
             // 
-            this.buildingContactInfoTextBox.Location = new System.Drawing.Point(16, 80);
+            this.buildingContactInfoTextBox.Location = new System.Drawing.Point(21, 98);
+            this.buildingContactInfoTextBox.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.buildingContactInfoTextBox.Name = "buildingContactInfoTextBox";
             this.buildingContactInfoTextBox.ReadOnly = true;
-            this.buildingContactInfoTextBox.Size = new System.Drawing.Size(100, 20);
+            this.buildingContactInfoTextBox.Size = new System.Drawing.Size(132, 22);
             this.buildingContactInfoTextBox.TabIndex = 10;
             // 
             // buildingContactInfoLabel
             // 
             this.buildingContactInfoLabel.AutoSize = true;
-            this.buildingContactInfoLabel.Location = new System.Drawing.Point(37, 64);
+            this.buildingContactInfoLabel.Location = new System.Drawing.Point(49, 79);
+            this.buildingContactInfoLabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.buildingContactInfoLabel.Name = "buildingContactInfoLabel";
-            this.buildingContactInfoLabel.Size = new System.Drawing.Size(44, 13);
+            this.buildingContactInfoLabel.Size = new System.Drawing.Size(58, 17);
             this.buildingContactInfoLabel.TabIndex = 11;
             this.buildingContactInfoLabel.Text = "Building";
             // 
             // addressContactInfoLabel
             // 
             this.addressContactInfoLabel.AutoSize = true;
-            this.addressContactInfoLabel.Location = new System.Drawing.Point(195, 113);
+            this.addressContactInfoLabel.Location = new System.Drawing.Point(260, 139);
+            this.addressContactInfoLabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.addressContactInfoLabel.Name = "addressContactInfoLabel";
-            this.addressContactInfoLabel.Size = new System.Drawing.Size(45, 13);
+            this.addressContactInfoLabel.Size = new System.Drawing.Size(60, 17);
             this.addressContactInfoLabel.TabIndex = 12;
             this.addressContactInfoLabel.Text = "Address";
             // 
             // addressContactInfoTextBox
             // 
-            this.addressContactInfoTextBox.Location = new System.Drawing.Point(123, 136);
+            this.addressContactInfoTextBox.Location = new System.Drawing.Point(164, 167);
+            this.addressContactInfoTextBox.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.addressContactInfoTextBox.Name = "addressContactInfoTextBox";
             this.addressContactInfoTextBox.ReadOnly = true;
-            this.addressContactInfoTextBox.Size = new System.Drawing.Size(205, 20);
+            this.addressContactInfoTextBox.Size = new System.Drawing.Size(272, 22);
             this.addressContactInfoTextBox.TabIndex = 13;
             // 
             // graduationCompactInfoTextBox
             // 
-            this.graduationCompactInfoTextBox.Location = new System.Drawing.Point(12, 136);
+            this.graduationCompactInfoTextBox.Location = new System.Drawing.Point(16, 167);
+            this.graduationCompactInfoTextBox.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.graduationCompactInfoTextBox.Name = "graduationCompactInfoTextBox";
             this.graduationCompactInfoTextBox.ReadOnly = true;
-            this.graduationCompactInfoTextBox.Size = new System.Drawing.Size(100, 20);
+            this.graduationCompactInfoTextBox.Size = new System.Drawing.Size(132, 22);
             this.graduationCompactInfoTextBox.TabIndex = 14;
             // 
             // graduationCompactInfoLabel
             // 
             this.graduationCompactInfoLabel.AutoSize = true;
-            this.graduationCompactInfoLabel.Location = new System.Drawing.Point(13, 113);
+            this.graduationCompactInfoLabel.Location = new System.Drawing.Point(17, 139);
+            this.graduationCompactInfoLabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.graduationCompactInfoLabel.Name = "graduationCompactInfoLabel";
-            this.graduationCompactInfoLabel.Size = new System.Drawing.Size(84, 13);
+            this.graduationCompactInfoLabel.Size = new System.Drawing.Size(113, 17);
             this.graduationCompactInfoLabel.TabIndex = 15;
             this.graduationCompactInfoLabel.Text = "Graduation Year";
             // 
             // coursesListBox
             // 
             this.coursesListBox.FormattingEnabled = true;
-            this.coursesListBox.Location = new System.Drawing.Point(12, 196);
+            this.coursesListBox.ItemHeight = 16;
+            this.coursesListBox.Location = new System.Drawing.Point(16, 241);
+            this.coursesListBox.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.coursesListBox.Name = "coursesListBox";
-            this.coursesListBox.Size = new System.Drawing.Size(125, 95);
+            this.coursesListBox.Size = new System.Drawing.Size(165, 116);
             this.coursesListBox.TabIndex = 16;
             // 
             // coursesContactInfoLabel
             // 
             this.coursesContactInfoLabel.AutoSize = true;
-            this.coursesContactInfoLabel.Location = new System.Drawing.Point(12, 177);
+            this.coursesContactInfoLabel.Location = new System.Drawing.Point(16, 218);
+            this.coursesContactInfoLabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.coursesContactInfoLabel.Name = "coursesContactInfoLabel";
-            this.coursesContactInfoLabel.Size = new System.Drawing.Size(45, 13);
+            this.coursesContactInfoLabel.Size = new System.Drawing.Size(190, 17);
             this.coursesContactInfoLabel.TabIndex = 17;
-            this.coursesContactInfoLabel.Text = "Courses";
+            this.coursesContactInfoLabel.Text = "Courses (comma separation)";
             // 
             // contactInfo
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(550, 331);
+            this.ClientSize = new System.Drawing.Size(733, 407);
             this.Controls.Add(this.coursesContactInfoLabel);
             this.Controls.Add(this.coursesListBox);
             this.Controls.Add(this.graduationCompactInfoLabel);
@@ -224,6 +243,7 @@
             this.Controls.Add(this.typeContactInfoLabel);
             this.Controls.Add(this.lastNameContactInfoLabel);
             this.Controls.Add(this.firstNameContactInfoLabel);
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "contactInfo";
             this.Text = "Member Details";
             this.Load += new System.EventHandler(this.contactInfo_Load);
