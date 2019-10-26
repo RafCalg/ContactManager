@@ -43,6 +43,10 @@ namespace ContactManager
                 emailFacultyFormTextBox.Text = Email;
                 buildingFacultyFormTextBox.Text = Building;
             }
+            else
+            {
+                typeFacultyFormTextBox.Text = Department="Faculty";
+            }
         }
 
         private void FacultyForm_Load_1(object sender, EventArgs e)
@@ -58,6 +62,10 @@ namespace ContactManager
 
                 addFacultyFormButton.Text = "Update";
                 this.Text = "Update Faculty Member";
+            }
+            else
+            {
+                typeFacultyFormTextBox.Text = Department = "Faculty";
             }
         }
 
